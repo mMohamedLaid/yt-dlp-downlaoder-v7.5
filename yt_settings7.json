@@ -1,0 +1,93 @@
+{
+  "DOWNLOAD TYPE": {
+    "DOWNLOAD_TYPE": "video"
+  },
+  "VIDEO QUALITY": {
+    "QUALITY_PRIORITY": [
+      480,
+      720
+    ],
+    "QUALITY_FALLBACK": true,
+    "VIDEO_CODEC_PRIORITY": [
+      "av1",
+      "vp9",
+      "h265",
+      "h264"
+    ],
+    "VIDEO_FORMAT": "mp4"
+  },
+  "AUDIO": {
+    "AUDIO_CODEC": [
+      "opus",
+      "aac"
+    ],
+    "AUDIO_BITRATE_CAP": "auto",
+    "AUDIO_FORMAT": "auto",
+    "AUDIO_QUALITY": "0"
+  },
+  "URL HANDLING": {
+    "PLAYLIST_URL_HANDLING": "start_from_video"
+  },
+  "SIDECAR METADATA (Master Switch)": {
+    "ENABLE_SIDECAR": true,
+    "CHAPTERS": {
+      "ENABLE_CHAPTERS": true
+    },
+    "SUBTITLES": {
+      "ENABLE_SUBTITLES": true,
+      "EMBED_SUBTITLES": true,
+      "KEEP_SUBTITLE_FILE": true,
+      "SUB_LANGUAGES": [
+        "en",
+        "fr",
+        "ar"
+      ],
+      "SUB_FORMAT": "best",
+      "ENABLE_AUTO_SUBS": true,
+      "SUB_ASK_MISSING": true,
+      "SUB_EMBED_LANGS": [
+        "Arabic",
+        "English",
+        "French"
+      ],
+      "SUB_KEEP_LANGS": [
+        "English",
+        "French",
+        "Italian"
+      ]
+    },
+    "THUMBNAILS": {
+      "ENABLE_THUMBNAILS": true,
+      "EMBED_THUMBNAILS": true,
+      "KEEP_THUMBNAIL_FILE": true,
+      "THUMBNAIL_FORMAT": "auto"
+    },
+    "JSON METADATA": {
+      "ENABLE_JSON": true,
+      "KEEP_JSON_FILE": false,
+      "ENABLE_COMMENTS": true,
+      "MAX_COMMENTS": "10",
+      "MAX_PARSED_COMMENTS": 5
+    },
+    "PLAYLIST": {
+      "MAX_PLAYLIST_VIDEOS": 6,
+      "PLAYLIST_START_INDEX": 1
+    }
+  },
+  "ARCHIVE": {
+    "ENABLE_ARCHIVE": false
+  },
+  "PATHS": {
+    "DOWNLOAD_DIR": "D:/Downloads/Video",
+    "LOG_DIR": "{ROOT}/logs",
+    "ARCHIVE_DIR": "{LOG_DIR}/archives",
+    "YT_DLP_EXE": "E:/apps/Youtube downloader/yt-dlp.exe"
+  },
+  "BEHAVIOR": {
+    "AUTO_CLOSE": false,
+    "SHOW_LIVE_PROGRESS": true
+  },
+  "DEBUG": {
+    "DEBUG_DRY_RUN": false
+  }
+}
